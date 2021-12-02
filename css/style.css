@@ -1,0 +1,38 @@
+   /* Estilos */
+   img{
+    width:100%;
+    transition: all .5s ease;
+  }
+  .contenedor-img{
+    position:fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-100%);
+  }
+  .lightBox{
+      display: block;
+      max-width: max-content;
+      width:95%;
+      height: 90%;
+      object-fit: contain;
+  }
+  
+  .cerrar{
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 50px;
+      font-family: monospace;
+      color: #fff;
+      cursor: pointer;
+      transform: rotate(45deg);
+  }
+  .moverImg{
+      transform: translateX(0);
+  }
